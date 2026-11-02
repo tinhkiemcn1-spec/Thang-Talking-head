@@ -1,0 +1,35 @@
+{
+  "font": "inter",
+  "segments": [],
+  "cards": [
+    {"t": 0, "end": 6, "layout": "boxes", "eyebrow": "The capacity gap", "title": "What needs uninterrupted time?", "numbered": true,
+     "items": [{"icon": "file-text", "label": "Decisions", "sub": "Compare alternatives"}, {"icon": "message-square", "label": "Analysis", "sub": "Understand the problem"}, {"icon": "calendar", "label": "Planning", "sub": "Choose the next step"}]},
+    {"t": 0, "end": 6, "layout": "checklist", "eyebrow": "The consequence", "title": "Responses done. The proposal still waits.",
+     "items": [{"icon": "message-square", "label": "Messages answered"}, {"icon": "clipboard-list", "label": "Requests handled"}, {"icon": "users", "label": "People supported"}],
+     "panel": {"title": "Clinical process proposal", "bars": 3, "badge": "Awaiting review"}, "note": "Important thinking has not begun."},
+    {"t": 0, "end": 6, "layout": "flow", "title": "A project is not a first action", "ring": false,
+     "items": [{"icon": "file-text", "label": "Whole project"}, {"icon": "circle-check", "label": "First action", "gold": true}]},
+    {"t": 0, "end": 6, "layout": "compare", "title": "Clarify the boundary",
+     "cols": [{"icon": "circle-check", "title": "Can decide", "gold": true}, {"icon": "lock", "title": "Needs approval"}]},
+    {"t": 0, "end": 8, "layout": "equation", "eyebrow": "Illustrative estimate", "title": "What does 30 minutes a day mean?",
+     "terms": [{"value": "30", "unit": "MIN", "sub": "Protected / day"}, {"op": "×"}, {"value": "5", "unit": "DAYS", "sub": "Working week"}, {"op": "="}, {"value": "150", "unit": "MIN", "sub": "On the calendar", "gold": true}],
+     "track": [{"label": "Protected work", "w": 5, "color": "green"}, {"label": "Setup", "w": 1, "color": "gold"}],
+     "foot": {"left": "5 min setup × 5 days = 25 min", "right": "125 MIN"}},
+    {"t": 0, "end": 6, "layout": "bars", "title": "Responsibility vs authority", "note": "Conceptual illustration",
+     "items": [{"value": 10, "label": "Responsibility"}, {"value": 3, "label": "Authority", "style": "light"}]},
+    {"t": 0, "end": 6, "layout": "stat", "eyebrow": "Make it specific", "title": "Protect one 30-minute period.", "value": "30", "unit": "Minutes", "sub": "A specific appointment"},
+    {"t": 0, "end": 6, "layout": "timeline", "eyebrow": "The daily pattern", "title": "Meeting. Another meeting. More messages.",
+     "items": [{"icon": "calendar", "label": "Meeting", "sub": "9:00"}, {"icon": "users", "label": "Another meeting", "sub": "10:30"}, {"icon": "mail", "label": "Messages", "sub": "12:00"}, {"icon": "file-text", "label": "Proposal?", "gold": true, "sub": "Still waiting"}]},
+    {"t": 0, "end": 6, "layout": "loop", "note": "The approval loop", "center": "AGAIN",
+     "items": [{"icon": "mail", "label": "Request"}, {"icon": "file-text", "label": "Explain"}, {"icon": "clock", "label": "Follow up"}, {"icon": "user", "label": "Escalate"}]},
+    {"t": 0, "end": 6, "layout": "statement", "icon": "shield-check", "text": "Necessary oversight"},
+    {"t": 0, "end": 7, "layout": "chips", "eyebrow": "The productivity assumption", "title": "Occupied time does not prove productivity.",
+     "rows": [{"caption": "All the time occupied", "chips": ["Meet", "Message", "Update", "Request", "Meet", "Message", "Update", "Request"]}],
+     "highlight": {"caption": "Space that fits the work", "icon": "shield-check", "label": "One consequential task", "other": "Match conditions to the task"}},
+    {"t": 0, "end": 6, "layout": "cta", "title": "The clarity quiz", "l2": "Free · Private · 2 min", "l3": "quiz.example.com", "l4": "Link in description"}
+  ],
+  "captions": [
+    {"t": 0, "end": 3, "text": "Your best thinking is still waiting.", "pos": "bottom"},
+    {"t": 0, "end": 3, "text": "Responsible.\nBut no control.", "pos": "top-left"}
+  ]
+}

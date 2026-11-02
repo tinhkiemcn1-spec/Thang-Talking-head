@@ -1,0 +1,162 @@
+{
+ "sources": {
+  "A": "D:/shoot/front.mp4",
+  "B": "D:/shoot/side.mp4"
+ },
+ "offsets": {
+  "B": 2.5
+ },
+ "segments": [
+  {
+   "src": "A",
+   "in": 0.0,
+   "out": 11.5,
+   "cam": "A"
+  },
+  {
+   "src": "A",
+   "in": 11.5,
+   "out": 26.3,
+   "cam": "A"
+  },
+  {
+   "src": "A",
+   "in": 26.3,
+   "out": 45.83,
+   "cam": "B"
+  },
+  {
+   "src": "A",
+   "in": 45.83,
+   "out": 57.0,
+   "cam": "A"
+  },
+  {
+   "src": "A",
+   "in": 57.44,
+   "out": 69.5,
+   "cam": "A"
+  },
+  {
+   "src": "A",
+   "in": 69.84,
+   "out": 73.04,
+   "cam": "B"
+  },
+  {
+   "src": "A",
+   "in": 73.42,
+   "out": 74.48,
+   "cam": "B"
+  }
+ ],
+ "grade": {
+  "A": "colorchannelmixer=rr=0.9454:gg=0.9638:bb=1.0000,eq=contrast=1.040:gamma=1.023:saturation=1.030",
+  "B": "colorchannelmixer=rr=0.9479:gg=0.9626:bb=1.0000,eq=contrast=1.040:gamma=1.000:saturation=1.030,colorchannelmixer=rr=0.9664:gg=0.9401:bb=0.9364"
+ },
+ "font": "inter",
+ "logo": {
+  "file": "logo.png",
+  "width": 150,
+  "pos": "tr"
+ },
+ "cards": [
+  {
+   "t": 10.0,
+   "end": 20.0,
+   "layout": "compare",
+   "eyebrow": "The uncomfortable question",
+   "title": "Too much work, or too little room?",
+   "cols": [
+    {
+     "icon": "layers",
+     "title": "Too much work",
+     "dim": true
+    },
+    {
+     "icon": "calendar",
+     "title": "Too little room",
+     "gold": true,
+     "at": 3.5
+    }
+   ],
+   "sfx": "whoosh"
+  },
+  {
+   "t": 31.6,
+   "end": 45.6,
+   "layout": "boxes",
+   "eyebrow": "The capacity gap",
+   "title": "What needs uninterrupted time?",
+   "numbered": true,
+   "items": [
+    {
+     "icon": "file-text",
+     "label": "Decisions",
+     "at": 4.5
+    },
+    {
+     "icon": "search",
+     "label": "Analysis",
+     "at": 5.4
+    },
+    {
+     "icon": "calendar",
+     "label": "Planning",
+     "at": 6.1
+    },
+    {
+     "icon": "puzzle",
+     "label": "Problem-solving",
+     "at": 6.9
+    }
+   ]
+  },
+  {
+   "t": 64.0,
+   "end": 73.3,
+   "layout": "timeline",
+   "eyebrow": "The daily pattern",
+   "title": "Meeting. Another meeting. More messages.",
+   "items": [
+    {
+     "icon": "calendar",
+     "label": "Meeting",
+     "at": 0.6
+    },
+    {
+     "icon": "users",
+     "label": "Another meeting",
+     "at": 1.6
+    },
+    {
+     "icon": "mail",
+     "label": "Messages",
+     "at": 5.5
+    }
+   ]
+  }
+ ],
+ "captions": [
+  {
+   "t": 26.4,
+   "end": 31.2,
+   "text": "Being occupied is not progress.",
+   "pos": "bottom"
+  },
+  {
+   "t": 0.3,
+   "end": 5.0,
+   "text": "Busy.\nStill waiting.",
+   "pos": "top-left"
+  }
+ ],
+ "broll": [
+  {
+   "t": 50.0,
+   "end": 55.5,
+   "file": "broll/office.mp4",
+   "src": 0
+  }
+ ]
+}

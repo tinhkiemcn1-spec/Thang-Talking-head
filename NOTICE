@@ -1,0 +1,24 @@
+Thang-Talking-head
+https://github.com/tinhkiemcn1-spec/Thang-Talking-head
+MIT License, Copyright (c) 2026 tinhkiemcn1-spec (see LICENSE).
+
+Derived work and third-party material:
+
+- Thang-Edit (https://github.com/tinhkiemcn1-spec/Thang-Edit), itself based on
+  video-use by Browser Use (https://github.com/browser-use/video-use),
+  MIT License, Copyright (c) 2026 Browser Use and the Thang-Edit authors.
+  Adapted: production cut rules (word-boundary cuts, padding, 30 ms audio fades,
+  per-segment extract + lossless concat, overlay setpts shift), the bounded
+  auto-grade rules in scripts/grade.py, the faster-whisper transcription
+  approach and the two-pass loudnorm in scripts/render.py.
+
+- video-anime (https://github.com/tinhkiemcn1-spec/video-anime),
+  MIT License, Copyright (c) 2026 tinhkiemcn1-spec.
+  Adapted: plan.json + check_plan workflow, Resolve connection and menu-script
+  installer in scripts/resolve_build.py, install.py. assets/sfx/*.wav copied.
+
+- Lucide icons (https://lucide.dev), lucide-static 0.460.0, ISC License,
+  assets/icons/*.svg, licence in assets/icons/LICENSE-lucide.txt.
+
+- Inter (Rasmus Andersson) and Oswald (Vernon Adams), SIL Open Font License 1.1,
+  assets/fonts/, licences in assets/fonts/OFL-*.txt.
